@@ -1,2 +1,2 @@
 # cto_website
-This repository consis of the source code of the mian connect to open source website
+This repository consist of source code of main connect to open source website
