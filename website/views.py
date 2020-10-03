@@ -2,15 +2,13 @@
 from django.shortcuts import render
 
 
-def post_list(request):
-    return render(request, 'website/post_list.html', {})
-
 
 def home_view(request):
-    return render(request, 'website/home.html')
+    return render(request, 'home.html')
 
 
 def about_us(request):
-    return render(request, 'website/about.html')
+    return render(request, 'about.html')
 
-
+def posts(request):
+    return render(request , 'post_list.html')
